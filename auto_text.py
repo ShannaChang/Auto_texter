@@ -11,7 +11,6 @@ other_number = '+17189161886'
 body_1 = 'Thats play a game Jackie. Do something to stop count down.'
 end_body = 'BOOM!!!!!!!!!!!!!!!!!!!!!!!.'
 body_count = 'OMG! Dont let the bomb explore.'
-# body = 'http://wiesmann.codiferes.net/share/bitmaps/test_pattern.svg'
 
 # sent a SMS message
 for i in range(0, 7):
@@ -28,4 +27,3 @@ for i in range(0, 7):
         message = client.messages.create(to=other_number, from_=my_number, body=i + '\n' + body_count)
         time.sleep(3)
 
-# message = client.messages.create(to=other_number, from_=my_number, body=body)
