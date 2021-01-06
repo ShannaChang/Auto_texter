@@ -5,7 +5,7 @@ account = "AC169cd84f2b74f51bc8abebc42973cb6c"
 token = "54ea2786b8eb34dd3dd3a85696233f2d"
 client = TwilioRestClient(account, token)
 
-# # Phone numbers
+# Phone numbers
 my_number  = '+15418339048'
 other_number = '+17189161886'
 body_1 = 'Thats play a game Jackie. Do something to stop count down.'
